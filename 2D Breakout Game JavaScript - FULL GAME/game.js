@@ -124,7 +124,7 @@ function resetBall(){
 
 // BALL AND PADDLE COLLISION
 function ballPaddleCollision(){
-    if(ball.x < paddle.x + paddle.width && ball.x > paddle.x && paddle.y < paddle.y + paddle.height && ball.y > paddle.y){
+    if(ball.x < paddle.x + paddle.width && ball.x > paddle.x && ball.y < paddle.y + paddle.height && ball.y > paddle.y){
         
         // PLAY SOUND
         PADDLE_HIT.play();
